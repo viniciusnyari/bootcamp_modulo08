@@ -68,3 +68,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 ### `Documentação` passo a passo
+
+
+### Site
+https://skylab.rocketseat.com.br/node/utilizando-react-hooks/lesson/configurando-estrutura-2
+
+### Local
+C:\Temp\Bootcamp2019\bootcamp_modulo08
