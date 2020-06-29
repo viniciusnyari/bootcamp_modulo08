@@ -27,18 +27,18 @@ Será gerado o arquivo
 yarn add eslint -D
 
 ## Inicializando o 'eslint'
-yarn eslint --init
-Responda as perguntas conforme abaixo: 
-? How would you like to use ESLint? To check syntax, find problems, and enforce code style
-? What type of modules does your project use? JavaScript modules (import/export)
-? Which framework does your project use? React
-? Does your project use TypeScript? No
-? Where does your code run? Browser
-? How would you like to define a style for your project? Use a popular style guide
-? Which style guide do you want to follow? Airbnb: https://github.com/airbnb/javascript
-? What format do you want your config file to be in? JavaScript
-Checking peerDependencies of eslint-config-airbnb@latest
-Responsa 'Y' para tudo o que for questionado e aguarde a instalação.
+yarn eslint --init <br>
+Responda as perguntas conforme abaixo: <br>
+? How would you like to use ESLint? To check syntax, find problems, and enforce code style <br>
+? What type of modules does your project use? JavaScript modules (import/export) <br>
+? Which framework does your project use? React <br>
+? Does your project use TypeScript? No <br>
+? Where does your code run? Browser <br>
+? How would you like to define a style for your project? Use a popular style guide <br>
+? Which style guide do you want to follow? Airbnb: https://github.com/airbnb/javascript <br>
+? What format do you want your config file to be in? JavaScript <br>
+Checking peerDependencies of eslint-config-airbnb@latest <br>
+Responsa 'Y' para tudo o que for questionado e aguarde a instalação.<br>
 
 ## Instalando pretier - deixa o código mais bonito - eslint procura erros (ausência de pontos)
 yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
