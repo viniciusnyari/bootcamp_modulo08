@@ -23,8 +23,8 @@ serviceWorker.js <br>
 Botão direito nos arquivos em uma área livre e escolher 'Generator .editorConfig' <br>
 Será gerado o arquivo <br>
 
-##Adicionado `eslint`
-yarn add eslint -D
+## Adicionado `eslint` - versão específica
+yarn add eslint@^6.6.0 -D
 
 ## Inicializando o `eslint`
 yarn eslint --init <br>
@@ -40,10 +40,25 @@ Responda as perguntas conforme abaixo: <br>
 Checking peerDependencies of eslint-config-airbnb@latest <br>
 Responsa 'Y' para tudo o que for questionado e aguarde a instalação.<br>
 
+## Ajustando o `eslint`
+Talvez aqui tenha que ajustar a versão do eslint pois na instalação acima tenha sido feito downgrade <br>
+yarn add eslint@^6.6.0 -D
+
 ## Instalando `pretier` - deixa o código mais bonito - eslint procura erros (ausência de pontos)
 yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
 
+## Certifique que o arquivo `.editorConfig` esteja assim
+root = true <br>
+[*] <br>
+end_of_line = lf <br>
+indent_style = space <br>
+indent_size = 2 <br>
+charset = utf-8 <br>
+trim_trailing_whitespace = true <br>
+insert_final_newline = true <br>
 
+## Rodando a aplicação - essa configuração está no `package.json`
+yarn react-scripts start
 
 ### Site
 https://skylab.rocketseat.com.br/node/utilizando-react-hooks/lesson/configurando-estrutura-2
