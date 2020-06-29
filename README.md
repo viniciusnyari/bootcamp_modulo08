@@ -4,70 +4,45 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Treinamento BootCamp - Diminuindo a verbosidade excessiva
 
-## Rodando a aplicação
+**Nota: Você pode colocar uma nota qualquer aqui!**
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 ### `Documentação` passo a passo
+
+## Excluir os comentários e o arquivo 
+manifest.json
+
+## Excluir esses e zelar para evitar os erros -  remover as referências
+App.css
+App.test.js
+index.css
+logo.svg
+serviceWorker.js
+
+## Gerando o arquivo '.editorConfig'
+Botão direito nos arquivos em uma área livre e escolher 'Generator .editorConfig'
+Será gerado o arquivo
+
+##Adicionado `eslint`
+yarn add eslint -D
+
+## Inicializando o 'eslint'
+yarn eslint --init
+Responda as perguntas conforme abaixo: 
+? How would you like to use ESLint? To check syntax, find problems, and enforce code style
+? What type of modules does your project use? JavaScript modules (import/export)
+? Which framework does your project use? React
+? Does your project use TypeScript? No
+? Where does your code run? Browser
+? How would you like to define a style for your project? Use a popular style guide
+? Which style guide do you want to follow? Airbnb: https://github.com/airbnb/javascript
+? What format do you want your config file to be in? JavaScript
+Checking peerDependencies of eslint-config-airbnb@latest
+Responsa 'Y' para tudo o que for questionado e aguarde a instalação.
+
+## Instalando pretier - deixa o código mais bonito - eslint procura erros (ausência de pontos)
+yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
+
 
 
 ### Site
