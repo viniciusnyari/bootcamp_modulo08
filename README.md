@@ -13,20 +13,20 @@ Treinamento BootCamp - Diminuindo a verbosidade excessiva
 manifest.json
 
 ## Excluir esses e zelar para evitar os erros -  remover as referências
-App.css
-App.test.js
-index.css
-logo.svg
-serviceWorker.js
+App.css <br>
+App.test.js <br>
+index.css <br>
+logo.svg <br>
+serviceWorker.js <br>
 
-## Gerando o arquivo '.editorConfig'
-Botão direito nos arquivos em uma área livre e escolher 'Generator .editorConfig'
-Será gerado o arquivo
+## Gerando o arquivo `.editorConfig`
+Botão direito nos arquivos em uma área livre e escolher 'Generator .editorConfig' <br>
+Será gerado o arquivo <br>
 
 ##Adicionado `eslint`
 yarn add eslint -D
 
-## Inicializando o 'eslint'
+## Inicializando o `eslint`
 yarn eslint --init <br>
 Responda as perguntas conforme abaixo: <br>
 ? How would you like to use ESLint? To check syntax, find problems, and enforce code style <br>
@@ -40,7 +40,7 @@ Responda as perguntas conforme abaixo: <br>
 Checking peerDependencies of eslint-config-airbnb@latest <br>
 Responsa 'Y' para tudo o que for questionado e aguarde a instalação.<br>
 
-## Instalando pretier - deixa o código mais bonito - eslint procura erros (ausência de pontos)
+## Instalando `pretier` - deixa o código mais bonito - eslint procura erros (ausência de pontos)
 yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
 
 
