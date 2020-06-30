@@ -1,7 +1,24 @@
-import React from 'react';
+import React, { useState } from "react";
 
 function App() {
-  return <h1>Hello World! BootCamp Modulo 08 - Utilizando React Hooks!</h1>;
+  const [tech, setTech] = useState(["ReactJS", "React Native"]);
+
+  function handleAdd() {
+    setTech([...tech, "Node.js"]);
+  }
+
+  return (
+    <>
+      <ul>
+        {tech.map((t) => (
+          <li key={t}>{t}</li>
+        ))}
+      </ul>
+      <button type="button" onClick={handleAdd}>
+        Adicionar
+      </button>
+    </>
+  );
 }
 
 export default App;
