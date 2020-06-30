@@ -2,7 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## ReactJS - `Utilizando React Hooks`
 
-Treinamento BootCamp - Diminuindo a verbosidade excessiva
+Treinamento BootCamp - Diminuindo a verbosidade excessiva <br>
+`React Hooks` é uma API que ajuda a dimninuir a verbosidade na parte de compartilhamento de informações entre componentes, estado e ciclo de vida. 
 
 **Nota: Você pode colocar uma nota qualquer aqui!**
 
@@ -56,6 +57,33 @@ indent_size = 2 <br>
 charset = utf-8 <br>
 trim_trailing_whitespace = true <br>
 insert_final_newline = true <br>
+
+## Arquivo `eslintrc.js`
+extends: [
+    'plugin:react/recommended',
+    'airbnb',
+    'prettier',
+    'prettier/react',
+  ],
+  
+  plugins: [
+    'react',
+    'prettier',
+    'react-hooks'
+  ],
+  
+  rules: {
+    'prettier/prettier':'error',
+    'react/jsx-filename-extension' :[
+      'warn',
+      { extensions: ['.jsx','.js']}
+    ],
+    'import/prefer-default-export': 'off'
+  },
+
+## Instalando plugin do `eslint` próprio para usar os hooks
+yarn add eslint-plugin-react-hooks -D
+
 
 ## Rodando a aplicação - essa configuração está no `package.json`
 yarn react-scripts start
